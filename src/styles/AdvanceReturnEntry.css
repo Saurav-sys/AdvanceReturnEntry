@@ -132,12 +132,16 @@ input{
   margin-right: -30px;
 }
 .find{
-  margin-top: 20px;
-  
+  margin-top: 20px; 
 }
 .field-check{
+  display: flex;
+  flex-direction: row;
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 20px; 
+  
+}
+.field-check label{
   
 }
 .two{
@@ -154,20 +158,20 @@ input{
   margin-top:8px;
 }
 .note-field{
-  margin-top: -10px;
+  margin-top: 0px;
 }
 .les{
-  margin-right:26px;
+  margin-right:30.5px;
 }
 .paid{
-  margin-right:27px;
+  margin-right:30.5px;
 }
 .unpaid{
-  margin-right:2px;
+  margin-right:1.8px;
 }
 .cash{
-  margin-right:17px;
+  margin-right:20px;
 }
 .rtgs{
-  margin-right:10px;
+  margin-right:18.5px;
 }
