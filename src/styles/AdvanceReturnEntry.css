@@ -1,0 +1,173 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+  width: 99vw;
+  height: 100vh;
+  background-color: rgba(67,67,67,255);
+  position: relative;
+}
+.main{
+  width:90vw;
+  height: 90vh;
+  background-color: rgba(241,241,241,255);
+  position: absolute;
+  top: 45px;
+  left: 52px;
+}
+h3{
+  margin-left: 50px;
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+.header{
+  width: 100%;
+  background-color: rgba(65, 141, 251, 255) !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  margin: 10px 10px 10px 50px;
+}
+.dash{
+  width: 25px ;
+  height: 3px;
+  background-color: white;
+  margin-top: 5px;
+}
+.header-input{
+  height: 30px;
+  width:180px;
+  background-color: rgba(65, 141, 251, 255);
+  border-left:1px solid white;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  border-right: none;
+}
+.icons{
+  height: 30px; 
+  background-color: rgba(65, 141, 251, 255);
+  border-right:1px solid white;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  border-left:none;
+  width:  38px;
+ 
+}
+.icon{
+  width: 40px;
+  height: 50px;
+   padding: 7px;
+  color: azure;
+}
+.first{
+  width: 98%;
+  height:100px;
+  margin:5px 10px 5px 10px;
+  border:1px solid grey;
+  display:flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,255);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.field{
+  margin-left: 50px;
+}
+.labelone{
+  margin-right: 20px;
+}
+.labeltwo{
+  margin-right: 7px;
+}
+.labelthree{
+  margin-right: 10px;
+}
+select{
+  width: 135px;
+  height: 25px;
+  margin-left: 10px;
+}
+input{
+  width: 130px;
+  height: 22px;
+  margin-left: 12px;
+}
+.excl{
+  margin-left:265px;
+  margin-top: 5px;
+}
+
+.second{
+  width: 98%;
+  height:180px;
+  border:1px solid grey;
+  margin:5px 10px 5px 10px;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,255);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.one{
+  flex: 1;
+  padding: 15px 0px 0px 20px;
+}
+.check{
+  display: flex;
+  margin-left:-40px;
+  
+}
+.checks{
+  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.check-input{
+  margin-right: -30px;
+}
+.find{
+  margin-top: 20px;
+  
+}
+.field-check{
+  margin-top: 15px;
+  margin-left: 20px;
+  
+}
+.two{
+  flex: 1;
+  border-left:1px solid grey ;
+  display: flex;
+  padding:10px 0px 0px 20px  ;
+  gap: 50px;
+  
+}
+.text-note{
+  display: flex;
+  gap:10px;
+  margin-top:8px;
+}
+.note-field{
+  margin-top: -10px;
+}
+.les{
+  margin-right:26px;
+}
+.paid{
+  margin-right:27px;
+}
+.unpaid{
+  margin-right:2px;
+}
+.cash{
+  margin-right:17px;
+}
+.rtgs{
+  margin-right:10px;
+}
